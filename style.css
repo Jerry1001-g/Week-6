@@ -24,3 +24,20 @@ div{
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
 }
+
+.click{
+    padding: 5px;
+    margin: 5px;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    transition: 3s ease-in-out;
+}
+
+.click:hover{
+    background-color: whitesmoke;
+    color: blue;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 2s ease-in-out;
+}
